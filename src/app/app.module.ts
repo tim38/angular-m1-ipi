@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StudentsComponent } from './students/students.component';
+import { ExperienceModule } from './experience/experience.module';
+import { FormationModule } from './formation/formation.module';
 import { StudentsModule } from './students/students.module';
 
 @NgModule({
@@ -14,8 +15,10 @@ import { StudentsModule } from './students/students.module';
     BrowserModule,
     AppRoutingModule,
     StudentsModule,
+    ExperienceModule,
+    FormationModule
   ],
-  providers: [ StudentsModule],
+  providers: [ StudentsModule], //,ExperienceModule,FormationModule
   bootstrap: [AppComponent]
 })
 export class AppModule { }
