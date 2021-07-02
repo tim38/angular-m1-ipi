@@ -33,7 +33,17 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js",
+              "node_modules/glightbox/dist/js/glightbox.min.js",
+              "node_modules/isotope-layout/js/isotope.js",
+              "node_modules/swiper/swiper-bundle.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/@srexi/purecounterjs/dist/purecounter.js",
+              "node_modules/waypoints/lib/noframework.waypoints.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/typed.js/lib/typed.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -101,7 +111,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/aos/dist/aos.js"]
           }
         }
       }
